@@ -1,0 +1,113 @@
+body{
+	background-color: black;
+}
+
+.jumbotron{
+	padding-top: 150px;
+	background: url(/home/erica/Projects/CelebratePink/img/tulip.jpg);
+	height: 400px;
+	color: white;
+	font-family: 'Reenie Beanie', cursive;
+}
+#clickme{
+	background-color: green;
+	border: none;
+	transition: background-color 0.5s;
+}
+#clickme:hover{
+	background-color: pink;
+}
+.intro{
+	margin: 50px 150px 50px 150px;
+	text-align: center;
+	color: white;
+	font-family: 'Neucha', cursive;
+	
+}
+.morebtn{
+	background-color: green;
+	padding: 7px;
+	border-radius: 5px;
+}
+.morebtn:hover{
+	background-color: white;
+	transition: background-color 0.5s;
+	color: black;
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+li.navbtn a{
+	transition: background-color 0.5s;
+}
+li.navbtn a:hover{
+	background-color: pink;
+	color: black;
+}
+
+#applycol{
+	text-align: center;
+	padding-top: 50px;
+}
+#applybtn{
+	background-color: pink;
+	color:black;
+	padding: 20px;
+	transition: background-color 0.4s;
+	border: none;
+}
+#applybtn:hover{
+	background-color: green;
+	border: none;
+}
+#eventscol, #aboutcol{
+	background-color: black;
+	border: none;
+}
+footer{
+	text-align: center;
+	margin-top: 40px;
+}
+#footnav ul{
+	display: inline;
+	float: right;
+}
+#footnav li{
+	display: inline;
+	padding: 10px;
+}
+#footnav a:hover{
+	color: white;
+}
+p{
+	color: white;
+}
+a{
+	color: pink;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 26px;
+}
+h3{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 36px;
+	color: pink;
+}
+h4{
+	font-size: 18px;
+}
+
+/*Contact page*/
+
+#contactinfo{
+	padding-top: 60px;
+}
+
+#textinput{
+	height: 100px;
+}
