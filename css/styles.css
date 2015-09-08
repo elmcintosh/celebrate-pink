@@ -9,6 +9,9 @@ body{
 	color: white;
 	font-family: 'Reenie Beanie', cursive;
 }
+.jumbotron p{
+	font-family: 'Reenie Beanie', cursive;
+}
 #clickme{
 	background-color: green;
 	border: none;
@@ -17,11 +20,11 @@ body{
 #clickme:hover{
 	background-color: pink;
 }
-.intro{
+.intro h4{
 	margin: 50px 150px 50px 150px;
 	text-align: center;
 	color: white;
-	font-family: 'Neucha', cursive;
+	font-family: 'Calligraffitti', cursive;
 	
 }
 .morebtn{
@@ -86,6 +89,7 @@ footer{
 	color: white;
 }
 p{
+	font-family: 'Dosis', sans-serif;
 	color: white;
 }
 a{
@@ -99,9 +103,12 @@ h3{
 	color: pink;
 }
 h4{
+	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 }
-
+h5{
+	font-family: 'Dosis', sans-serif;
+}
 /*Contact page*/
 
 #contactinfo{
@@ -110,4 +117,34 @@ h4{
 
 #textinput{
 	height: 100px;
+}
+
+/*Apply Page*/
+.qual{
+	text-align: center;
+	color: white;
+}
+.qual h4{
+	padding: 20px 0px 20px 0px;
+}
+.qual h5{
+	font-size: 20px;
+	padding-top: 10px;
+	color: green;
+}
+#applysrc{
+	margin-top: 150px;
+	text-align: center;
+}
+#appdwnld{
+	padding-top: 40px;
+}
+
+/*About Us Page*/
+#aboutmain{
+	text-align: center;
+	margin-top: 40px;
+}
+#how{
+	margin-top: 40px;
 }
