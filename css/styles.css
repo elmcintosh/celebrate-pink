@@ -4,7 +4,7 @@ body{
 
 .jumbotron{
 	padding-top: 150px;
-	background: url(img/tulip.jpg);
+	background: url(../img/tulip.jpg);
 	height: 400px;
 	color: white;
 	font-family: 'Reenie Beanie', cursive;
