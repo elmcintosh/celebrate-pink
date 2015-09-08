@@ -88,6 +88,11 @@ footer{
 #footnav a:hover{
 	color: white;
 }
+.quote{
+	color: green;
+	text-align: center;
+	padding: 30px 30px 30px 30px;
+}
 p{
 	font-family: 'Dosis', sans-serif;
 	color: white;
@@ -96,6 +101,9 @@ a{
 	color: pink;
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 26px;
+}
+h2{
+	font-family: 'Reenie Beanie', cursive;
 }
 h3{
 	font-family: 'Reenie Beanie', cursive;
@@ -106,6 +114,7 @@ h4{
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 }
+
 h5{
 	font-family: 'Dosis', sans-serif;
 }
@@ -145,6 +154,25 @@ h5{
 	text-align: center;
 	margin-top: 40px;
 }
+#aboutmain p{
+	font-size: 16px;
+	line-height: 25px;
+}
+#aboutmain h4{
+	color: pink;
+	line-height: 30px;
+	padding-top: 10px;
+}
+#aboutmain h2{
+	color: pink;
+	font-family: 'Reenie Beanie', cursive;
+	font-size:38px;
+}
 #how{
 	margin-top: 40px;
+}
+#aboutmain h2.quote{
+	color: green;
+	text-align: center;
+	padding: 30px 30px 30px 30px;
 }
